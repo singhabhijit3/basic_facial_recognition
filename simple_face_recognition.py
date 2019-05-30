@@ -27,6 +27,6 @@ for image in list_of_images:
         
     # check if it was a match
     if result[0] == True:
-        print "Matched: " + image
+        print ("Matched: " + image)
     else:
-        print "Not matched: " + image
+        print ("Not matched: " + image)
